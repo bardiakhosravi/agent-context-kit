@@ -1,0 +1,60 @@
+name: Feature Request
+description: Suggest a new rule or improvement to existing rules
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What architectural challenge or pattern is currently missing?
+      placeholder: Describe the gap in current rules or patterns
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What rule or improvement would you like to see?
+      placeholder: Describe your proposed rule or change
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches have you considered?
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What area does this relate to?
+      options:
+        - Domain Model (Entities, Value Objects, Aggregates)
+        - Repository Pattern
+        - Domain Events
+        - Application Services
+        - Hexagonal Architecture (Ports & Adapters)
+        - Project Structure
+        - Testing
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
