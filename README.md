@@ -1,6 +1,6 @@
-# AI Agent Backend Coding Standards
+# Agent Context Kit
 
-Comprehensive coding standards for AI agents building backend services with Domain Driven Design and Hexagonal Architecture. Battle-tested rules for maintainable, testable code.
+Coding standards context for AI agents building backend services with Domain Driven Design and Hexagonal Architecture. 
 
 ## 🤖 Why This Exists
 
